@@ -1,0 +1,98 @@
+.section__about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 50px;
+  background: linear-gradient(
+    180deg,
+    rgb(167, 162, 235) 0%,
+    rgb(225, 202, 247) 100%
+  );
+  border-radius: 24px;
+}
+
+.section__about h1 {
+  text-align: center;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.interesting__container {
+  margin-top: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.interesting__container h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.interesting__container--card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.interesting--card {
+  width: 200px;
+}
+
+.interesting--card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.interesting--card h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.interesting--card p {
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.interesting__container button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgba(136, 127, 127, 0.815);
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .section__about h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 450px) {
+  .interesting__container h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}

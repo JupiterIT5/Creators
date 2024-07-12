@@ -1,0 +1,62 @@
+.projects__container {
+  margin-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projects__container h2 {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+.projects__container--card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.projects--card {
+    width: 200px;
+}
+
+.projects--card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.projects--card h2 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects--card p {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.projects__container button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #a3a1a188;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: calc(50% - 100px);
+    margin-bottom: 100px;
+}
+
+@media (max-width: 450px) {
+  .projects__container h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
